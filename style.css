@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    height: 100%;
+  }
+  
+  body {
+   background-image: url("bg.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  }
+  
+  header {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    width: 100%;
+    color: rgb(206, 70, 16);
+    background-color: #e6c50e;
+    max-height: 150px;
+  }
+  
+  .top {
+    color: rgb(218, 215, 223);
+    font-size: 2rem;
+    text-align: left;
+    font-family: 'Signika', sans-serif;
+    
+  }
+  .container {
+    width: 20%;
+    margin: auto;
+    margin-top: 24px;
+    background: #e6e6fa;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 2px 2px #9370db;
+  }
+  .title,
+  .note {
+    background: #e6e6fa;
+    border: none;
+    padding: 8px;
+    margin: 12px;
+    border-bottom: 2px solid #add8e6;
+    resize: none;
+  font-family: 'Signika', sans-serif;
+    
+  }
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin: 32px;
+    align-items: center;
+  }
+  .card {
+    background: #ffffe0;
+    border-radius: 8px;
+    width: 240px;
+    overflow-wrap: break-word;
+    white-space: normal;
+    padding: 6px;
+    font-family: 'Signika', sans-serif;
+    box-shadow: -1px 1px 1px 1px #ffd700;
+  }
+  .add-btn:hover{
+    width: 50%;
+    align-self: center;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    height: 30px;
+    vertical-align: middle;
+    margin-bottom: 4px;
+    font-weight: bold;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  .add-btn:hover{
+  background: rgb(223, 190, 6);
+  }
+  .delete-btn {
+    width: 30%;
+    align-self: center;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    height: 15px;
+    vertical-align: middle;
+    margin: 2px;
+    float: right;
+    font-weight: bold;
+    background: #ac0c2e;
+    cursor: pointer;
+  }
+  .delete-btn:hover{
+    transform: scale(1.2);
+  }
